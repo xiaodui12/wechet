@@ -1,0 +1,22 @@
+{
+    "name": "ujsoft/wechat",
+    "authors": [
+        {
+            "name": "xiaodui12",
+            "email": "952979483@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ujsoft\\Wechat\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ujsoft\\Wechat\\Providers\\AdminServiceProvider"
+            ]
+        }
+    }
+}
